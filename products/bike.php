@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alf's Cycle - single bike page</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -14,12 +14,13 @@
 </head>
 
 <body>
-  <?php include 'layout/header.php'; ?>
+  <?php $base_url = '../'; ?>
+  <?php include '../layout/header.php'; ?>
 
   <nav aria-label="Breadcrumb">
     <ol>
-      <li><a href="./index.php">Home</a></li>
-      <li><a href="./bikes.php">Bikes</a></li>
+      <li><a href="../index.php">Home</a></li>
+      <li><a href="../bikes.php">Bikes</a></li>
       <li aria-current="page">The Heritage Commuter</li>
     </ol>
   </nav>
@@ -28,7 +29,7 @@
     <h2>The Heritage Commuter</h2>
     <section class="p-0">
       <figure>
-        <img width="992" height="661" src="./images/bikes/classic-collection/clc-landscape-the-heritage-commuter.webp"
+        <img width="992" height="661" src="../assets/images/bikes/classic-collection/clc-landscape-the-heritage-commuter.webp"
           alt="The Heritage Commuter">
         <figcaption>
           <p>The Heritage Commuter</p>
@@ -104,21 +105,21 @@
       <div class="articles-grid">
         <article>
           <figure>
-            <img width="304" height="405" src="./images/bikes/classic-collection/clc-the-roadseter.webp"
+            <img width="304" height="405" src="../assets/images/bikes/classic-collection/clc-the-roadseter.webp"
               alt="The Heritage Commuter">
           </figure>
           <h3>The Roadster</h3>
         </article>
         <article>
           <figure>
-            <img width="304" height="405" src="./images/bikes/classic-collection/clc-the-madam.webp"
+            <img width="304" height="405" src="../assets/images/bikes/classic-collection/clc-the-madam.webp"
               alt="The Heritage Commuter">
           </figure>
           <h3>The Madam</h3>
         </article>
         <article>
           <figure>
-            <img width="304" height="405" src="./images/bikes/classic-collection/clc-the-gentlemen.webp"
+            <img width="304" height="405" src="../assets/images/bikes/classic-collection/clc-the-gentlemen.webp"
               alt="The Heritage Commuter">
           </figure>
           <h3>The Gentlemen</h3>
@@ -138,7 +139,7 @@
       </div>
     </section>
   </main>
-  <?php include 'layout/footer.php'; ?>
+  <?php include '../layout/footer.php'; ?>
 </body>
 
 </html>

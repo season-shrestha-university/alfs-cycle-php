@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alf's Cycle - Events</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -118,7 +118,7 @@
       <div class="articles-grid">
         <article>
           <figure>
-            <img width="304" height="405" src="./images/alfs/alf-with-book.webp" alt="1980s Workshop">
+            <img width="304" height="405" src="./assets/images/alfs/alf-with-book.webp" alt="1980s Workshop">
             <figcaption>
               <h3>The Early Days</h3>
               <p>
@@ -130,7 +130,7 @@
         </article>
         <article>
           <figure>
-            <img width="304" height="405" src="./images/alfs/alf-family.webp" alt="Community Events">
+            <img width="304" height="405" src="./assets/images/alfs/alf-family.webp" alt="Community Events">
             <figcaption>
               <h3>Community Memories</h3>
               <p>
@@ -142,7 +142,7 @@
         </article>
         <article>
           <figure>
-            <img width="304" height="405" src="./images/alfs/alf-&-ben.webp" alt="Alf's Legacy">
+            <img width="304" height="405" src="./assets/images/alfs/alf-&-ben.webp" alt="Alf's Legacy">
             <figcaption>
               <h3>Alf's Legacy</h3>
               <p>

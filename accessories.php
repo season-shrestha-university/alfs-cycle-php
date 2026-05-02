@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alf's Cycle - Accessories</title>
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -31,42 +31,42 @@
       <div class="articles-grid">
         <article>
           <figure>
-            <img width="304" height="405" src="./images/accessories/shimano-105.webp"
+            <img width="304" height="405" src="./assets/images/accessories/shimano-105.webp"
               alt="Shimano 105 CS-R7000 Cassette">
             <figcaption>
               <h3>Shimano Deore CN-HG54</h3>
               <p>Sleek single-speed with timeless lines and quality steel frame.</p>
             </figcaption>
           </figure>
-          <a href="./inner-accessories.php" class="ghost-link">View catalogue</a>
+          <a href="./products/accessory.php" class="ghost-link">View catalogue</a>
         </article>
 
         <article>
           <figure>
-            <img width="304" height="405" src="./images/accessories/terk-verse.webp" alt="Trek Verse Trail Bike Saddle">
+            <img width="304" height="405" src="./assets/images/accessories/terk-verse.webp" alt="Trek Verse Trail Bike Saddle">
             <figcaption>
               <h3>Trek Verse Trail Bike Saddle</h3>
               <p>Offers all-day comfort for any rider on trails and off-road adventures.</p>
             </figcaption>
           </figure>
-          <a href="./inner-accessories.php" class="ghost-link">View catalogue</a>
+          <a href="./products/accessory.php" class="ghost-link">View catalogue</a>
         </article>
 
         <article>
           <figure>
-            <img width="304" height="405" src="./images/accessories/specialized-bridge-sport.webp"
+            <img width="304" height="405" src="./assets/images/accessories/specialized-bridge-sport.webp"
               alt="Specialized Bridge Sport Saddle">
             <figcaption>
               <h3>Specialized Bridge Sport Unisex Saddle</h3>
               <p>Provides comfort and control on any terrain with Body Geometry support.</p>
             </figcaption>
           </figure>
-          <a href="./inner-accessories.php" class="ghost-link">View catalogue</a>
+          <a href="./products/accessory.php" class="ghost-link">View catalogue</a>
         </article>
 
         <article>
           <figure>
-            <img width="304" height="405" src="./images/accessories/schwalbe-rapid.webp"
+            <img width="304" height="405" src="./assets/images/accessories/schwalbe-rapid.webp"
               alt="Schwalbe Rapid Rob K-Guard tire">
             <figcaption>
               <h3>Schwalbe Rapid Rob K-Guard</h3>
@@ -76,12 +76,12 @@
               </p>
             </figcaption>
           </figure>
-          <a href="./inner-accessories.php" class="ghost-link">View catalogue</a>
+          <a href="./products/accessory.php" class="ghost-link">View catalogue</a>
         </article>
 
         <article>
           <figure>
-            <img width="304" height="405" src="./images/accessories/lazer-chiru.webp" alt="Lazer Chiru cycling helmet">
+            <img width="304" height="405" src="./assets/images/accessories/lazer-chiru.webp" alt="Lazer Chiru cycling helmet">
             <figcaption>
               <h3>Lazer Chiru Helmets</h3>
               <p>
@@ -90,7 +90,7 @@
               </p>
             </figcaption>
           </figure>
-          <a href="./inner-accessories.php" class="ghost-link">View catalogue</a>
+          <a href="./products/accessory.php" class="ghost-link">View catalogue</a>
         </article>
       </div>
     </section>

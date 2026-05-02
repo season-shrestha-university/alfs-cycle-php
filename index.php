@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alf's Cycle</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -31,8 +31,8 @@
       </svg>
 
       <figure>
-        <img width="168" height="126" src="./images/alfs/alf-in-store.webp" alt="Alf's Cycle workshop in 1983">
-        <img width="160" height="284" src="./images/alfs/young-alf.webp"
+        <img width="168" height="126" src="./assets/images/alfs/alf-in-store.webp" alt="Alf's Cycle workshop in 1983">
+        <img width="160" height="284" src="./assets/images/alfs/young-alf.webp"
           alt="photograph of Alf's when he was a young man">
         <!-- Service 40 years illustration -->
         <svg id="service-40-years" viewBox="0 0 704 223" fill="none" stroke="white" stroke-width="0.35"
@@ -66,7 +66,7 @@
       <div class="articles-grid">
         <article>
           <figure>
-            <img width="304" height="405" src="./images/bikes/classic-collection/clc-the-roadseter.webp"
+            <img width="304" height="405" src="./assets/images/bikes/classic-collection/clc-the-roadseter.webp"
               alt="Timeless British classic bicycle for comfortable everyday rides">
             <figcaption>
               <h3>The Roadster</h3>
@@ -82,11 +82,11 @@
               </div>
             </figcaption>
           </figure>
-          <a href="./inner-bike.php" class="ghost-link">View catalogue</a>
+          <a href="./products/bike.php" class="ghost-link">View catalogue</a>
         </article>
         <article>
           <figure>
-            <img width="304" height="405" src="./images/bikes/classic-collection/clc-the-madam.webp" alt="Modern  One">
+            <img width="304" height="405" src="./assets/images/bikes/classic-collection/clc-the-madam.webp" alt="Modern  One">
             <figcaption>
               <h3>The Madam</h3>
               <p>
@@ -100,11 +100,11 @@
               </div>
             </figcaption>
           </figure>
-          <a href="./inner-bike.php" class="ghost-link">View catalogue</a>
+          <a href="./products/bike.php" class="ghost-link">View catalogue</a>
         </article>
         <article>
           <figure>
-            <img width="304" height="405" src="./images/bikes/modern-collection/mod-flux-carbon.webp"
+            <img width="304" height="405" src="./assets/images/bikes/modern-collection/mod-flux-carbon.webp"
               alt="Urban Fold Pro folding bike – compact, lightweight, and easy to store, ideal for commuters">
             <figcaption>
               <h3>Urban Fold Pro</h3>
@@ -119,7 +119,7 @@
               </div>
             </figcaption>
           </figure>
-          <a href="./inner-bike.php" class="ghost-link">View catalogue</a>
+          <a href="./products/bike.php" class="ghost-link">View catalogue</a>
         </article>
       </div>
     </section>
@@ -180,7 +180,7 @@
       <div class="articles-grid">
         <article>
           <figure>
-            <img width="304" height="405" src="./images/accessories/shimano-105.webp"
+            <img width="304" height="405" src="./assets/images/accessories/shimano-105.webp"
               alt="Shimano 105 CS-R7000 Cassette">
             <figcaption>
               <h3>Shimano 105 CS-R7000 Cassette</h3>
@@ -190,11 +190,11 @@
               </p>
             </figcaption>
           </figure>
-          <a href="./inner-accessories.php" class="ghost-link">View catalogue</a>
+          <a href="./products/accessory.php" class="ghost-link">View catalogue</a>
         </article>
         <article>
           <figure>
-            <img width="304" height="405" src="./images/accessories/terk-verse.webp" alt="Trek Verse Trail Bike Saddle">
+            <img width="304" height="405" src="./assets/images/accessories/terk-verse.webp" alt="Trek Verse Trail Bike Saddle">
             <figcaption>
               <h3>Trek Verse Trail Bike Saddle</h3>
               <p>
@@ -203,11 +203,11 @@
               </p>
             </figcaption>
           </figure>
-          <a href="./inner-bike.php" class="ghost-link">View catalogue</a>
+          <a href="./products/bike.php" class="ghost-link">View catalogue</a>
         </article>
         <article>
           <figure>
-            <img width="304" height="405" src="./images/accessories/specialized-bridge-sport.webp"
+            <img width="304" height="405" src="./assets/images/accessories/specialized-bridge-sport.webp"
               alt="Specialized Bridge Sport Saddle">
             <figcaption>
               <h3>Specialized Bridge Sport Unisex Saddle</h3>
@@ -217,7 +217,7 @@
               </p>
             </figcaption>
           </figure>
-          <a href="./inner-accessories.php" class="ghost-link">View catalogue</a>
+          <a href="./products/accessory.php" class="ghost-link">View catalogue</a>
         </article>
       </div>
     </section>
@@ -227,7 +227,7 @@
         <path fill="#8a0303" fill-opacity=".2" d="m0 151 40-58L7 30l67 20 49-50 2 70 63 31-66 24-10 69-43-55z" />
       </svg>
       <figure>
-        <img width="600" height="338" src="./images/events/event-1998.webp" alt="1998 Alf's Cycle Event">
+        <img width="600" height="338" src="./assets/images/events/event-1998.webp" alt="1998 Alf's Cycle Event">
         <figcaption>
           <p>
             Join us on 23rd January for a journey through 40 years of cycling

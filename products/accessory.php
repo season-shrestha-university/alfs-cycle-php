@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alf's Cycle - single accessories page</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -14,12 +14,13 @@
 </head>
 
 <body>
-  <?php include 'layout/header.php'; ?>
+  <?php $base_url = '../'; ?>
+  <?php include '../layout/header.php'; ?>
 
   <nav aria-label="Breadcrumb">
     <ol>
-      <li><a href="./index.php">Home</a></li>
-      <li><a href="./bikes.php">Accessories</a></li>
+      <li><a href="../index.php">Home</a></li>
+      <li><a href="../bikes.php">Accessories</a></li>
       <li aria-current="page">Cassette</li>
     </ol>
   </nav>
@@ -28,7 +29,7 @@
     <h2>Shimano 105 CS-R7000 Cassette</h2>
     <section class="p-0">
       <figure>
-        <img width="992" height="661" src="./images/accessories/rim.webp" alt="Shimano 105 CS-R7000 Cassette">
+        <img width="992" height="661" src="../assets/images/accessories/rim.webp" alt="Shimano 105 CS-R7000 Cassette">
         <figcaption>
           <p>Shimano 105 CS-R7000 Cassette</p>
         </figcaption>
@@ -98,19 +99,19 @@
       <div class="articles-grid">
         <article>
           <figure>
-            <img width="304" height="405" src="./images/accessories/shimano-105.webp" alt="1980s Workshop">
+            <img width="304" height="405" src="../assets/images/accessories/shimano-105.webp" alt="1980s Workshop">
           </figure>
           <h3>Shimano Deore CN-HG54 Chain</h3>
         </article>
         <article>
           <figure>
-            <img width="304" height="405" src="./images/accessories/terk-verse.webp" alt="Community Events">
+            <img width="304" height="405" src="../assets/images/accessories/terk-verse.webp" alt="Community Events">
           </figure>
           <h3>Trek Verse Trail Bike Saddle</h3>
         </article>
         <article>
           <figure>
-            <img width="304" height="405" src="./images/accessories/specialized-bridge-sport.webp" alt="Alf's Legacy">
+            <img width="304" height="405" src="../assets/images/accessories/specialized-bridge-sport.webp" alt="Alf's Legacy">
           </figure>
           <h3>Specialized Bridge Sport Saddle</h3>
         </article>
@@ -129,7 +130,7 @@
       </div>
     </section>
   </main>
-  <?php include 'layout/footer.php'; ?>
+  <?php include '../layout/footer.php'; ?>
 </body>
 
 </html>

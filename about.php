@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alf's Cycle - about</title>
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -28,7 +28,7 @@
     <h2>Much loved, Uncle Alf</h2>
 
     <figure>
-      <img width="992" height="661" src="./images/alfs/alf-with-book.webp" alt="Young Alf with a book">
+      <img width="992" height="661" src="./assets/images/alfs/alf-with-book.webp" alt="Young Alf with a book">
       <figcaption>Young Alf with a book</figcaption>
     </figure>
 
@@ -53,7 +53,7 @@
     </p>
 
     <figure>
-      <img width="992" height="661" src="./images/alfs/alf-family.webp" alt="Alf's family">
+      <img width="992" height="661" src="./assets/images/alfs/alf-family.webp" alt="Alf's family">
       <figcaption>Alf's family</figcaption>
     </figure>
     <p>
