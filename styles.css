@@ -1,0 +1,1023 @@
+/* ============================================
+   CSS RESET
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   ============================================ */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1.5;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ============================================
+   CSS VARIABLES
+   ============================================ */
+
+:root {
+  /* Colors */
+  --color-primary: #5c1f2b;
+  --color-text-primary: #1a1a1acc;
+  --color-text-secondary: #242424;
+  --color-text-dark: #1a1a1a;
+  --color-text-light: #fafafa;
+  --color-bg-primary: #f0f0f0;
+  --color-bg-event: #8a0303;
+  --color-status-bg: #dcfce7;
+  --color-status-outline: #86efac;
+  --color-status-text: #166534;
+  --color-status-dot: #22c55e;
+  --color-overlay-light: rgba(26, 26, 26, 0.05);
+  --color-overlay-medium: rgba(26, 26, 26, 0.1);
+  --color-shadow: rgba(26, 26, 26, 0.1);
+  --color-separator: #6c757d;
+
+  /* Font Sizes - Mobile (default) */
+  --font-size-base: 1rem;
+  --font-size-h1: 2rem;
+  --font-size-h2: 2rem;
+  --font-size-status-mobile: 0.75rem;
+  --font-size-status-desktop: 0.75rem;
+
+  /* Button variables */
+  --button-padding: 0.75rem 1rem;
+  --button-transition: all 0.2s ease;
+  --color-primary-hover: #4a1923;
+  --color-primary-active: #3d141c;
+}
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial,
+    sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--font-size-base);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+  font-family: "Libre+Baskerville", "Times New Roman", Times, serif;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.25;
+  width: 18ch;
+  color: var(--color-primary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text-secondary);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p + p {
+  margin-top: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ============================================
+   LAYOUT
+   ============================================ */
+
+header,
+main,
+footer {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+section {
+  padding: 3rem 0;
+}
+
+/* ============================================
+   BUTTONS / LINKS
+   ============================================ */
+
+/* Primary Links (Button Style) */
+.primary-link {
+  display: inline-block;
+  padding: 0.5rem 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: inherit;
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--button-transition);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.primary-link:hover {
+  background-color: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
+  text-decoration: none;
+}
+
+.primary-link:active {
+  background-color: var(--color-primary-active);
+  border-color: var(--color-primary-active);
+}
+
+.primary-link:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Ghost Links (Button Style) */
+.ghost-link {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: inherit;
+  background-color: transparent;
+  color: var(--color-primary);
+  text-decoration: underline;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.ghost-link:hover {
+  color: var(--color-text-dark);
+}
+
+.ghost-link:active {
+  color: var(--color-primary-active);
+}
+
+.ghost-link:focus {
+  outline-offset: 2px;
+}
+
+/* ============================================
+   NAVIGATION
+   ============================================ */
+
+nav {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+nav > a:first-of-type {
+  order: 1;
+  flex-shrink: 0;
+}
+
+nav > aside {
+  order: 2;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: flex-end;
+}
+
+nav > label {
+  order: 3;
+  display: block;
+  flex-shrink: 0;
+  cursor: pointer;
+  padding: 0.5rem;
+  border: none;
+  background: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease;
+}
+
+nav > label:hover {
+  background-color: var(--color-overlay-light);
+}
+
+nav > label svg {
+  display: block;
+}
+
+/* Hamburger icon */
+.navicon {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--color-text-dark);
+  position: relative;
+  transition: background-color 0.2s ease;
+}
+
+.navicon::before,
+.navicon::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--color-text-dark);
+  position: absolute;
+  transition: all 0.2s ease;
+}
+
+.navicon::before {
+  top: -8px;
+}
+
+.navicon::after {
+  top: 8px;
+}
+
+/* Animate hamburger icon when menu is open */
+input[type="checkbox"]:checked ~ label .navicon {
+  background-color: transparent;
+}
+
+input[type="checkbox"]:checked ~ label .navicon::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+input[type="checkbox"]:checked ~ label .navicon::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+nav aside output {
+  font-family: "Inter", Arial, sans-serif;
+  background: var(--color-status-bg);
+  padding: 0.2rem 0.5rem;
+  border-radius: 100px;
+  outline: 1px solid var(--color-status-outline);
+  font-size: var(--font-size-status-mobile);
+  color: var(--color-status-text);
+  font-weight: 500;
+}
+
+nav aside output::before {
+  content: "";
+  display: inline-block;
+  margin-right: 4px;
+  width: 10px;
+  height: 10px;
+  background: var(--color-status-dot);
+  border-radius: 50%;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+nav ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: var(--color-bg-primary);
+  padding: 1rem;
+  flex-direction: column;
+  gap: 0;
+  border-radius: 0 0 0.5rem 0.5rem;
+  box-shadow: 0 4px 6px var(--color-shadow);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  justify-content: center;
+}
+
+nav ul li {
+  width: 100%;
+  position: relative;
+  font-weight: 700;
+}
+
+nav ul a {
+  display: block;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--color-overlay-medium);
+  transition: color 0.2s ease;
+}
+
+nav ul a:last-child {
+  border-bottom: none;
+}
+
+nav ul a:hover {
+  color: var(--color-text-dark);
+}
+
+input[type="checkbox"]:checked ~ ul {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+input[type="checkbox"]:checked ~ label {
+  background-color: var(--color-overlay-medium);
+}
+
+/* ============================================
+   BREADCRUMB NAVIGATION
+   ============================================ */
+
+nav[aria-label="Breadcrumb"] {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+nav[aria-label="Breadcrumb"] ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav[aria-label="Breadcrumb"] li {
+  display: flex;
+  align-items: center;
+}
+
+nav[aria-label="Breadcrumb"] li:not(:last-child)::after {
+  content: "/";
+  margin-left: 0.5rem;
+  color: var(--color-separator);
+  font-weight: 400;
+}
+
+nav[aria-label="Breadcrumb"] a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav[aria-label="Breadcrumb"] a:hover {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+}
+
+nav[aria-label="Breadcrumb"] li[aria-current="page"] {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+/* ============================================
+   HERO SECTION
+   ============================================ */
+
+.hero {
+  position: relative;
+}
+
+.hero h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.hero h1 span {
+  color: var(--color-primary);
+  font-style: italic;
+  font-weight: 700;
+}
+
+.hero #cycle-illustration {
+  position: absolute;
+  bottom: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.4;
+  width: 370px;
+  height: 218px;
+  max-width: 100%;
+}
+
+.hero figure {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.hero figure img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.hero figure img:first-of-type {
+  max-width: 168px;
+  aspect-ratio: 4 / 3;
+}
+
+.hero figure img:last-of-type {
+  max-width: 160px;
+  aspect-ratio: 9 / 16;
+}
+
+.hero [id="service-40-years"] {
+  position: absolute;
+  bottom: 0%;
+}
+
+.hero a {
+  margin-top: 1.5rem;
+}
+
+/* ============================================
+   EVENT SECTION
+   ============================================ */
+
+.event {
+  position: relative;
+}
+
+.event h2 {
+  background: var(--color-bg-event);
+  color: var(--color-text-light);
+  padding: 2rem 1.5rem 0rem;
+  margin-bottom: 0;
+}
+
+.event figure {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.event img {
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+  max-width: 100%;
+  height: auto;
+}
+
+.event p {
+  font-family: "Libre+Baskerville", "Times New Roman", Times, serif;
+  font-size: var(--font-size-h1);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.event svg {
+  display: none;
+  position: absolute;
+  bottom: 10%;
+  left: 60%;
+  transform: translateX(-50%);
+}
+
+.event a {
+  margin-top: 1.5rem;
+}
+/* ============================================
+   EVENT CTA SECTION
+   ============================================ */
+
+.event-cta {
+  text-align: center;
+}
+
+.event-cta h2 {
+  margin: 0 auto 1.5rem;
+}
+
+.event-cta > div {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.event-cta > p:last-of-type {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  font-style: italic;
+  margin-top: 1.5rem;
+  max-width: 50ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============================================
+   ARTICLES GRID
+   ============================================ */
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.section-header h2 {
+  margin-bottom: 0;
+}
+
+.section-header a {
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: underline;
+  font-style: italic;
+}
+.articles-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+section article {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+section article figure {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+section article img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+}
+
+section article figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+section article figcaption h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--color-text-dark);
+  line-height: 1.3;
+}
+
+section article figcaption p {
+  margin: 0;
+  color: var(--color-text-primary);
+  line-height: 1.6;
+}
+
+section article figcaption span {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-family: "Inter", Arial, sans-serif;
+  line-height: 1.4;
+  display: block;
+}
+
+/* ============================================
+   CONTENT SECTION
+   ============================================ */
+
+.content p {
+  max-width: 60ch;
+  margin: 0 auto 1.5rem;
+}
+
+.content figure figcaption {
+  font-style: italic;
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  margin: 0.5rem auto;
+  text-align: center;
+}
+
+/* ============================================
+   SHOP DETAILS
+   ============================================ */
+
+.shop-details dt {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: small;
+  margin-bottom: 0.25rem;
+  color: var(--color-primary);
+}
+
+.shop-details div:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.shop-details iframe {
+  max-width: 100%;
+  height: 350px;
+  aspect-ratio: 450 / 350;
+  border: 0;
+}
+
+/* ============================================
+   TABLES
+   ============================================ */
+
+table {
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-overlay-medium);
+}
+
+th {
+  font-weight: 600;
+  color: var(--color-text-dark);
+  background-color: var(--color-bg-primary);
+}
+
+td {
+  color: var(--color-text-primary);
+  font-size: 1rem;
+}
+
+tbody td:first-child {
+  color: var(--color-primary);
+  font-size: 0.875rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+.p-0 {
+  padding: 0;
+}
+
+/* ============================================
+   MEDIA QUERIES
+   ============================================ */
+
+/* Tablet (481px+) */
+@media (min-width: 481px) {
+  :root {
+    --font-size-base: 1.125rem;
+    --font-size-h1: 2.25rem;
+    --font-size-h2: 2.5rem;
+  }
+
+  .hero figure img:first-of-type {
+    max-width: min(300px, 100%);
+  }
+
+  .hero figure img:last-of-type {
+    max-width: min(200px, 100%);
+  }
+
+  .articles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .event-cta > div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .shop-details > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .shop-details iframe {
+    height: 250px;
+  }
+}
+
+/* Desktop (769px+) */
+@media (min-width: 769px) {
+  :root {
+    --font-size-h1: 2.5rem;
+    --font-size-h2: 3rem;
+  }
+
+  .primary-link {
+    padding: var(--button-padding);
+    font-size: 1rem;
+  }
+
+  .ghost-link {
+    font-size: 1rem;
+  }
+
+  nav {
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  nav > a:first-of-type {
+    order: 0;
+    flex-shrink: 0;
+  }
+
+  nav > aside {
+    order: 2;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    margin-left: auto;
+  }
+
+  nav > input[type="checkbox"] {
+    order: 3;
+  }
+
+  nav > label {
+    order: 4;
+    display: none;
+  }
+
+  nav > aside > a {
+    display: none;
+  }
+
+  nav aside output {
+    font-size: var(--font-size-status-desktop);
+    padding: 4px 16px;
+  }
+
+  nav ul {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    background-color: transparent;
+    box-shadow: none;
+    opacity: 1;
+    visibility: visible;
+    padding: 0;
+    border-radius: 0;
+    order: 1;
+    margin: 0;
+    top: 0%;
+  }
+
+  nav ul li {
+    width: auto;
+  }
+
+  nav ul a {
+    display: inline-block;
+    padding: 0.5rem 0;
+    border-bottom: none;
+  }
+
+  .hero #cycle-illustration {
+    bottom: 85%;
+    width: 270px;
+    height: 218px;
+  }
+
+  .hero figure img:first-of-type {
+    max-width: min(600px, 100%);
+  }
+
+  .hero figure img:last-of-type {
+    max-width: min(400px, 100%);
+  }
+
+  .hero h1 {
+    padding: 0 12rem;
+  }
+
+  .hero p {
+    padding-right: 20rem;
+  }
+
+  .event figure {
+    flex-direction: row;
+  }
+
+  .event svg {
+    display: block;
+    bottom: 40%;
+    left: 70%;
+  }
+
+  .articles-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+
+  .event-cta > div {
+    gap: 1.5rem;
+  }
+
+  section article figcaption h3 {
+    font-size: 1.75rem;
+  }
+}
