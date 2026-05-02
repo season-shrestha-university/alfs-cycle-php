@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <?php include 'header.php'; ?>
+  <?php include 'layout/header.php'; ?>
   <main>
     <!-- Hero section -->
     <section class="hero">
@@ -238,7 +238,7 @@
       </figure>
     </section>
   </main>
-  <?php include 'footer.php'; ?>
+  <?php include 'layout/footer.php'; ?>
 </body>
 
 </html>
