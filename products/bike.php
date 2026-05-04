@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <title>The Heritage Commuter | Alf's Cycle</title>
   <meta name="description"
     content="Discover The Heritage Commuter bicycle at Alf's Cycle. A classic hybrid bike designed for everyday riding, commuting, and comfort in the city.">
@@ -29,7 +30,7 @@
     </ol>
   </nav>
 
-  <main class="content">
+  <main id="main-content" tabindex="-1" class="content">
     <h2>The Heritage Commuter</h2>
     <section class="p-0">
       <figure>

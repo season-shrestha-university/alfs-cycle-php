@@ -17,7 +17,7 @@
 <body>
   <?php include 'layout/header.php'; ?>
 
-  <main class="content">
+  <main id="main-content" tabindex="-1" class="content">
     <section class="error-container">
       <h1>404</h1>
       <h2>Oops! We lost the trail.</h2>

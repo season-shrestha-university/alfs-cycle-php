@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cycling Accessories & Gear | Alf's Cycle Cheriton</title>
   <meta name="description"
@@ -27,7 +28,7 @@
     </ol>
   </nav>
 
-  <main>
+  <main id="main-content" tabindex="-1">
     <section>
       <h2>Premium Bicycle Accessories & Add-Ons</h2>
 

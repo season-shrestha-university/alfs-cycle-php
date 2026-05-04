@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shimano 105 CS-R7000 Cassette | Alf's Cycle</title>
   <meta name="description"
@@ -29,7 +30,7 @@
     </ol>
   </nav>
 
-  <main class="content">
+  <main id="main-content" tabindex="-1" class="content">
     <h2>Shimano 105 CS-R7000 Cassette</h2>
     <section class="p-0">
       <figure>

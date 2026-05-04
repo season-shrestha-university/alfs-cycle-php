@@ -563,7 +563,7 @@ nav[aria-label="Breadcrumb"] li[aria-current="page"] {
   font-size: 3rem;
 }
 
-.hero h1 span {
+.hero h1 em {
   color: var(--color-primary);
   font-style: italic;
   font-weight: 700;
@@ -1053,3 +1053,18 @@ tbody td:first-child {
   margin-bottom: 40px;
   color: #555;
 }
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--color-primary);
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+

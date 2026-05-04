@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Alf's Cycle - Bicycle Shop in Cheriton</title>
   <meta name="description"
@@ -26,7 +27,7 @@
       <li aria-current="page">Contact Us</li>
     </ol>
   </nav>
-  <main class="content">
+  <main id="main-content" tabindex="-1" class="content">
     <section class="shop-details">
       <h2>Visit or Contact Our Cheriton Bicycle Shop</h2>
       <div>
