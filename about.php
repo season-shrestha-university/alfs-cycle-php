@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Alf's Cycle - Our History in Cheriton</title>
-  <meta name="description" content="Learn about the rich history of Alf's Cycle in Cheriton. Serving the local cycling community with passion, care, and expert repairs since 1983.">
+  <meta name="description"
+    content="Learn about the rich history of Alf's Cycle in Cheriton. Serving the local cycling community with passion, care, and expert repairs since 1983.">
   <meta name="keywords" content="about Alf's Cycle, Cheriton bike shop history, local bicycle shop, cycling community">
 
   <link rel="stylesheet" href="./assets/css/styles.css">

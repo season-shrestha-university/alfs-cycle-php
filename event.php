@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Local Cycling Events | Alf's Cycle Cheriton</title>
-  <meta name="description" content="Join local cycling events hosted by Alf's Cycle in Cheriton. Celebrate our 40th anniversary with vintage bike tours, community rides, and more.">
+  <meta name="description"
+    content="Join local cycling events hosted by Alf's Cycle in Cheriton. Celebrate our 40th anniversary with vintage bike tours, community rides, and more.">
   <meta name="keywords" content="Alf's Cycle events, cycling events Cheriton, local bike ride, vintage bike tour">
   <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">

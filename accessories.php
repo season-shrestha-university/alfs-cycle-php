@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cycling Accessories & Gear | Alf's Cycle Cheriton</title>
-  <meta name="description" content="Shop premium cycling accessories, helmets, tires, and saddles at Alf's Cycle in Cheriton. Quality gear for every bike and rider.">
+  <meta name="description"
+    content="Shop premium cycling accessories, helmets, tires, and saddles at Alf's Cycle in Cheriton. Quality gear for every bike and rider.">
   <meta name="keywords" content="cycling accessories, bike gear, helmets, tires, bike saddles, Cheriton bicycle shop">
 
   <link rel="stylesheet" href="./assets/css/styles.css">
@@ -45,7 +46,8 @@
 
         <article>
           <figure>
-            <img width="304" height="405" src="./assets/images/accessories/terk-verse.webp" alt="Trek Verse Trail Bike Saddle">
+            <img width="304" height="405" src="./assets/images/accessories/terk-verse.webp"
+              alt="Trek Verse Trail Bike Saddle">
             <figcaption>
               <h3>Trek Verse Trail Bike Saddle</h3>
               <p>Offers all-day comfort for any rider on trails and off-road adventures.</p>
@@ -83,7 +85,8 @@
 
         <article>
           <figure>
-            <img width="304" height="405" src="./assets/images/accessories/lazer-chiru.webp" alt="Lazer Chiru cycling helmet">
+            <img width="304" height="405" src="./assets/images/accessories/lazer-chiru.webp"
+              alt="Lazer Chiru cycling helmet">
             <figcaption>
               <h3>Lazer Chiru Helmets</h3>
               <p>

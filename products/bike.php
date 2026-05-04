@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Heritage Commuter | Alf's Cycle</title>
-  <meta name="description" content="Discover The Heritage Commuter bicycle at Alf's Cycle. A classic hybrid bike designed for everyday riding, commuting, and comfort in the city.">
-  <meta name="keywords" content="The Heritage Commuter, hybrid bike, city bike, everyday bicycle, classic commuter bike, Alf's Cycle">
+  <meta name="description"
+    content="Discover The Heritage Commuter bicycle at Alf's Cycle. A classic hybrid bike designed for everyday riding, commuting, and comfort in the city.">
+  <meta name="keywords"
+    content="The Heritage Commuter, hybrid bike, city bike, everyday bicycle, classic commuter bike, Alf's Cycle">
   <link rel="stylesheet" href="../assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +33,8 @@
     <h2>The Heritage Commuter</h2>
     <section class="p-0">
       <figure>
-        <img width="992" height="661" src="../assets/images/bikes/classic-collection/clc-landscape-the-heritage-commuter.webp"
+        <img width="992" height="661"
+          src="../assets/images/bikes/classic-collection/clc-landscape-the-heritage-commuter.webp"
           alt="The Heritage Commuter">
         <figcaption>
           <p>The Heritage Commuter</p>
