@@ -10,7 +10,7 @@
 
     <!-- Contact information -->
     <aside aria-label="Contact information">
-      <output aria-live="polite">Workshop is open</output>
+      <output aria-live="polite" id="status"></output>
       <a href="tel:+447484000000" aria-label="Call Alf's Cycle workshop">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
           <path fill="#000"

@@ -86,7 +86,8 @@
         </article>
         <article>
           <figure>
-            <img width="304" height="405" src="./assets/images/bikes/classic-collection/clc-the-madam.webp" alt="Modern  One">
+            <img width="304" height="405" src="./assets/images/bikes/classic-collection/clc-the-madam.webp"
+              alt="Modern  One">
             <figcaption>
               <h3>The Madam</h3>
               <p>
@@ -194,7 +195,8 @@
         </article>
         <article>
           <figure>
-            <img width="304" height="405" src="./assets/images/accessories/terk-verse.webp" alt="Trek Verse Trail Bike Saddle">
+            <img width="304" height="405" src="./assets/images/accessories/terk-verse.webp"
+              alt="Trek Verse Trail Bike Saddle">
             <figcaption>
               <h3>Trek Verse Trail Bike Saddle</h3>
               <p>
