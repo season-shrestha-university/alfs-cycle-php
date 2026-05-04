@@ -9,7 +9,7 @@
     </a>
 
     <!-- Contact information -->
-    <aside aria-label="Contact information">
+    <div class="header-contact" aria-label="Contact information">
       <output aria-live="polite" id="status"></output>
       <a href="tel:+447484000000" aria-label="Call Alf's Cycle workshop">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -17,7 +17,7 @@
             d="m20 21-6-1A18 18 0 0 1 4 10L3 4l1-1h5v1l1 3v1H9l-2 3 1 2 5 4 2-2 1-1h1l3 1h1v5zM6 9l2-2-1-2H5zm9 9 4 1v-2l-2-1z" />
         </svg>
       </a>
-    </aside>
+    </div>
 
     <!-- Navigation menu -->
     <input type="checkbox" id="menu-toggle" class="menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">

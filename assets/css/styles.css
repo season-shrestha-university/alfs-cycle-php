@@ -351,7 +351,7 @@ nav > a:first-of-type {
   flex-shrink: 0;
 }
 
-nav > aside {
+nav > .header-contact {
   order: 2;
   flex: 1;
   display: flex;
@@ -424,7 +424,7 @@ input[type="checkbox"]:checked ~ label .navicon::after {
   top: 0;
 }
 
-nav aside output {
+nav .header-contact output {
   font-family: "Inter", Arial, sans-serif;
   background: var(--color-status-bg);
   padding: 0.2rem 0.5rem;
@@ -435,7 +435,7 @@ nav aside output {
   font-weight: 500;
 }
 
-nav aside output::before {
+nav .header-contact output::before {
   content: "";
   display: inline-block;
   margin-right: 4px;
@@ -927,7 +927,7 @@ tbody td:first-child {
     flex-shrink: 0;
   }
 
-  nav > aside {
+  nav > .header-contact {
     order: 2;
     flex-shrink: 0;
     justify-content: flex-end;
@@ -944,11 +944,11 @@ tbody td:first-child {
     display: none;
   }
 
-  nav > aside > a {
+  nav > .header-contact > a {
     display: none;
   }
 
-  nav aside output {
+  nav .header-contact output {
     font-size: var(--font-size-status-desktop);
     padding: 4px 16px;
   }
