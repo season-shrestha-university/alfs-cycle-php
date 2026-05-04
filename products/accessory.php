@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alf's Cycle - single accessories page</title>
+  <title>Shimano 105 CS-R7000 Cassette | Alf's Cycle</title>
+  <meta name="description" content="Upgrade your ride with the Shimano 105 CS-R7000 Cassette. A high-performance 11-speed cassette for smooth and precise gear changes.">
+  <meta name="keywords" content="Shimano 105 cassette, CS-R7000, 11-speed cassette, bike parts, cycling accessories, Alf's Cycle">
   <link rel="stylesheet" href="../assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

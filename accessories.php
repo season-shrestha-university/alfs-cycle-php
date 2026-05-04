@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alf's Cycle - Accessories</title>
+  <title>Cycling Accessories & Gear | Alf's Cycle Cheriton</title>
+  <meta name="description" content="Shop premium cycling accessories, helmets, tires, and saddles at Alf's Cycle in Cheriton. Quality gear for every bike and rider.">
+  <meta name="keywords" content="cycling accessories, bike gear, helmets, tires, bike saddles, Cheriton bicycle shop">
 
   <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +28,7 @@
 
   <main>
     <section>
-      <h2>The Perfect Add-Ons</h2>
+      <h2>Premium Bicycle Accessories & Add-Ons</h2>
 
       <div class="articles-grid">
         <article>

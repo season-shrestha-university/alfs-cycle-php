@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alf's Cycle - about</title>
+  <title>About Alf's Cycle - Our History in Cheriton</title>
+  <meta name="description" content="Learn about the rich history of Alf's Cycle in Cheriton. Serving the local cycling community with passion, care, and expert repairs since 1983.">
+  <meta name="keywords" content="about Alf's Cycle, Cheriton bike shop history, local bicycle shop, cycling community">
 
   <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +27,7 @@
   </nav>
 
   <main class="content">
-    <h2>Much loved, Uncle Alf</h2>
+    <h2>The Story of Uncle Alf and Alf's Cycle</h2>
 
     <figure>
       <img width="992" height="661" src="./assets/images/alfs/alf-with-book.webp" alt="Young Alf with a book">

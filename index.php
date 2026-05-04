@@ -4,7 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alf's Cycle</title>
+  <title>Alf's Cycle - Bicycles, Accessories, Repairs in Cheriton</title>
+  <meta name="description"
+    content="Alf's Cycle is Cheriton's premier bicycle shop, offering classic and modern bikes, accessories, and expert bike repairs and maintenance services since 1983.">
+  <meta name="keywords"
+    content="bicycles, Cheriton bike shop, bike repairs, cycling accessories, Alf's Cycle, bicycle maintenance">
   <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,7 +64,7 @@
     <!-- Bike Section -->
     <section>
       <div class="section-header">
-        <h2>The Town’s Exclusive Treasures</h2>
+        <h2>Cheriton's Exclusive Bicycle Collection</h2>
         <a href="./bikes.php" class="ghost-link"> Explore More</a>
       </div>
       <div class="articles-grid">
@@ -125,7 +129,7 @@
       </div>
     </section>
     <section>
-      <h2>Everything your bike needs</h2>
+      <h2>Bicycle Repairs, Maintenance & Servicing</h2>
       <div class="articles-grid">
         <article>
           <figure>
@@ -175,7 +179,7 @@
     <!-- Accessories Section -->
     <section>
       <div class="section-header">
-        <h2>Gear Up for the Ride</h2>
+        <h2>Premium Cycling Accessories & Gear</h2>
         <a href="./accessories.php" class="ghost-link"> Explore More</a>
       </div>
       <div class="articles-grid">
@@ -224,7 +228,7 @@
       </div>
     </section>
     <section class="event">
-      <h2>Ride Through History</h2>
+      <h2>Local Cycling Events in Cheriton</h2>
       <svg xmlns="http://www.w3.org/2000/svg" width="189" height="195" fill="none" viewBox="0 0 189 195">
         <path fill="#8a0303" fill-opacity=".2" d="m0 151 40-58L7 30l67 20 49-50 2 70 63 31-66 24-10 69-43-55z" />
       </svg>

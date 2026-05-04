@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alf's Cycle - Bikes</title>
+  <title>Classic and Modern Bicycles | Alf's Cycle Cheriton</title>
+  <meta name="description" content="Discover our wide range of classic, vintage, and modern bicycles at Alf's Cycle in Cheriton. Find the perfect bike for your city commute or countryside tour.">
+  <meta name="keywords" content="buy bicycles, classic bikes, modern bikes, city commute bikes, Cheriton bicycles, Alf's Cycle bikes">
   <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +27,7 @@
 
   <main>
     <section>
-      <h2>Vintage Heart celebrates classic cycles</h2>
+      <h2>Vintage & Classic Bicycles Collection</h2>
       <div class="articles-grid">
         <article>
           <figure>
@@ -128,7 +130,7 @@
       </div>
     </section>
     <section>
-      <h2>Performance, Redefined</h2>
+      <h2>Modern & High-Performance Bicycles</h2>
       <div class="articles-grid">
         <article>
           <figure>

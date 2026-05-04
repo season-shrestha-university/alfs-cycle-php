@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alf's Cycle - single bike page</title>
+  <title>The Heritage Commuter | Alf's Cycle</title>
+  <meta name="description" content="Discover The Heritage Commuter bicycle at Alf's Cycle. A classic hybrid bike designed for everyday riding, commuting, and comfort in the city.">
+  <meta name="keywords" content="The Heritage Commuter, hybrid bike, city bike, everyday bicycle, classic commuter bike, Alf's Cycle">
   <link rel="stylesheet" href="../assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
