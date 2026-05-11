@@ -29,7 +29,7 @@
 
   <main id="main-content" tabindex="-1" class="content">
     <section>
-      <h2>Alf's Cycle 40th Anniversary Celebration</h2>
+      <h1 class="page-title">Alf's Cycle 40th Anniversary Celebration</h1>
       <p>
         Join us on 23rd January for a journey through 40 years of cycling
         memories!

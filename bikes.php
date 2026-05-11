@@ -30,7 +30,7 @@
 
   <main id="main-content" tabindex="-1">
     <section>
-      <h2>Vintage & Classic Bicycles Collection</h2>
+      <h1 class="page-title">Vintage & Classic Bicycles Collection</h1>
       <div class="articles-grid">
         <article>
           <figure>

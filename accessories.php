@@ -30,8 +30,7 @@
 
   <main id="main-content" tabindex="-1">
     <section>
-      <h2>Premium Bicycle Accessories & Add-Ons</h2>
-
+      <h1 class="page-title">Premium Bicycle Accessories & Add-Ons</h1>
       <div class="articles-grid">
         <article>
           <figure>

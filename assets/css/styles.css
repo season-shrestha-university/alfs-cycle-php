@@ -183,12 +183,7 @@ table {
 }
 
 body {
-  font-family:
-    "Inter",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Arial,
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial,
     sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -228,6 +223,15 @@ h2 {
   margin-bottom: 1.5rem;
   line-height: 1.25;
   width: 18ch;
+  color: var(--color-primary);
+}
+
+.page-title {
+  font-size: var(--font-size-h2);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.25;
+  width: 24ch;
   color: var(--color-primary);
 }
 
@@ -1067,4 +1071,3 @@ tbody td:first-child {
 .skip-link:focus {
   top: 0;
 }
-

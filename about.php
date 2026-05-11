@@ -29,7 +29,7 @@
   </nav>
 
   <main id="main-content" tabindex="-1" class="content">
-    <h2>The Story of Uncle Alf and Alf's Cycle</h2>
+    <h1 class="page-title">The Story of Uncle Alf and Alf's Cycle</h1>
 
     <figure>
       <img width="992" height="661" src="./assets/images/alfs/alf-with-book.webp" alt="Young Alf with a book">
