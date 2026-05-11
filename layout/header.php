@@ -1,3 +1,7 @@
+<?php
+$current_page = basename($_SERVER["PHP_SELF"] ?? "");
+?>
+
 <header>
   <a href="#main-content" class="skip-link">Skip to main content</a>
   <nav aria-label="Main">
@@ -31,22 +35,34 @@
     <!-- Navigation menu list -->
     <ul id="main-menu" role="menu">
       <li role="none">
-        <a href="<?php echo isset($base_url) ? $base_url : './'; ?>index.php" role="menuitem">Home</a>
+        <a href="<?php echo isset($base_url) ? $base_url : './'; ?>index.php" role="menuitem"
+          class="<?php echo $current_page === 'index.php' ? 'active-link' : ''; ?>"
+          <?php echo $current_page === 'index.php' ? 'aria-current="page"' : ''; ?>>Home</a>
       </li>
       <li role="none">
-        <a href="<?php echo isset($base_url) ? $base_url : './'; ?>bikes.php" role="menuitem">Bikes</a>
+        <a href="<?php echo isset($base_url) ? $base_url : './'; ?>bikes.php" role="menuitem"
+          class="<?php echo $current_page === 'bikes.php' ? 'active-link' : ''; ?>"
+          <?php echo $current_page === 'bikes.php' ? 'aria-current="page"' : ''; ?>>Bikes</a>
       </li>
       <li role="none">
-        <a href="<?php echo isset($base_url) ? $base_url : './'; ?>accessories.php" role="menuitem">Accessories</a>
+        <a href="<?php echo isset($base_url) ? $base_url : './'; ?>accessories.php" role="menuitem"
+          class="<?php echo $current_page === 'accessories.php' ? 'active-link' : ''; ?>"
+          <?php echo $current_page === 'accessories.php' ? 'aria-current="page"' : ''; ?>>Accessories</a>
       </li>
       <li role="none">
-        <a href="<?php echo isset($base_url) ? $base_url : './'; ?>event.php" role="menuitem">Events</a>
+        <a href="<?php echo isset($base_url) ? $base_url : './'; ?>event.php" role="menuitem"
+          class="<?php echo $current_page === 'event.php' ? 'active-link' : ''; ?>"
+          <?php echo $current_page === 'event.php' ? 'aria-current="page"' : ''; ?>>Events</a>
       </li>
       <li role="none">
-        <a href="<?php echo isset($base_url) ? $base_url : './'; ?>about.php" role="menuitem">About</a>
+        <a href="<?php echo isset($base_url) ? $base_url : './'; ?>about.php" role="menuitem"
+          class="<?php echo $current_page === 'about.php' ? 'active-link' : ''; ?>"
+          <?php echo $current_page === 'about.php' ? 'aria-current="page"' : ''; ?>>About</a>
       </li>
       <li role="none">
-        <a href="<?php echo isset($base_url) ? $base_url : './'; ?>contact.php" role="menuitem">Contact</a>
+        <a href="<?php echo isset($base_url) ? $base_url : './'; ?>contact.php" role="menuitem"
+          class="<?php echo $current_page === 'contact.php' ? 'active-link' : ''; ?>"
+          <?php echo $current_page === 'contact.php' ? 'aria-current="page"' : ''; ?>>Contact</a>
       </li>
     </ul>
   </nav>

@@ -496,6 +496,14 @@ nav ul a:hover {
   color: var(--color-text-dark);
 }
 
+nav ul a.active-link,
+nav ul a[aria-current="page"] {
+  color: var(--color-primary);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 input[type="checkbox"]:checked ~ ul {
   opacity: 1;
   visibility: visible;
