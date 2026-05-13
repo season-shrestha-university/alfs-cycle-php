@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home -->
+  <url>
+    <loc>https://season-shrestha.uk/coursework/design-for-web-content/alfs-cycle-revisited/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Bikes listing -->
+  <url>
+    <loc>https://season-shrestha.uk/coursework/design-for-web-content/alfs-cycle-revisited/bikes.php</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Accessories listing -->
+  <url>
+    <loc>https://season-shrestha.uk/coursework/design-for-web-content/alfs-cycle-revisited/accessories.php</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Events -->
+  <url>
+    <loc>https://season-shrestha.uk/coursework/design-for-web-content/alfs-cycle-revisited/event.php</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://season-shrestha.uk/coursework/design-for-web-content/alfs-cycle-revisited/about.php</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://season-shrestha.uk/coursework/design-for-web-content/alfs-cycle-revisited/contact.php</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
