@@ -1,5 +1,31 @@
 <?php
 $current_page = basename($_SERVER["PHP_SELF"] ?? "");
+
+// Opening hours logic 
+function getOpeningStatus(): string
+{
+  $now = new DateTimeImmutable('now', new DateTimeZone('Europe/London'));
+  $day = (int) $now->format('N');                            // 1=Mon … 7=Sun
+  $mins = (int) $now->format('G') * 60 + (int) $now->format('i');
+
+  // Mon–Fri share the same hours; Sat differs; Sun is absent (= closed)
+  $schedule = array_fill(1, 5, [9 * 60, 18 * 60]) + [6 => [10 * 60, 16 * 60]];
+
+  if (!isset($schedule[$day])) {
+    return 'Closed today';
+  }
+
+  [$open, $close] = $schedule[$day];
+
+  if ($mins >= $open && $mins < $close) {
+    $fmt = fn(int $m): string => sprintf('%d:%02d', intdiv($m, 60), $m % 60);
+    return 'Open now: ' . $fmt($open) . ' – ' . $fmt($close);
+  }
+
+  return 'Closed now';
+}
+
+$store_status = getOpeningStatus();
 ?>
 
 <header>
@@ -16,7 +42,7 @@ $current_page = basename($_SERVER["PHP_SELF"] ?? "");
 
     <!-- Contact information -->
     <div class="header-contact">
-      <output aria-live="polite" id="status"></output>
+      <output aria-live="polite" id="status"><?php echo htmlspecialchars($store_status); ?></output>
       <a href="tel:+447484000000" aria-label="Call Alf's Cycle workshop">
         <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
           viewBox="0 0 24 24">

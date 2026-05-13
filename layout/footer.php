@@ -1,4 +1,3 @@
-<script src="./assets/js/main.js"></script>
 <footer class="shop-details">
   <h2>Shop Details</h2>
   <div>
