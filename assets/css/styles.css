@@ -1067,7 +1067,7 @@ tbody td:first-child {
 }
 .skip-link {
   position: absolute;
-  top: -40px;
+  top: -60px;
   left: 0;
   background: var(--color-primary);
   color: #fff;
