@@ -32,7 +32,7 @@
   </nav>
 
   <main id="main-content" tabindex="-1" class="content">
-    <h2>The Heritage Commuter</h2>
+    <h1 class="page-title">The Heritage Commuter</h1>
     <section class="p-0">
       <figure>
         <img width="992" height="661"

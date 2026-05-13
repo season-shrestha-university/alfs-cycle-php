@@ -16,7 +16,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap"
     rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
 </head>
 
 <body>
@@ -38,7 +38,7 @@
             <img width="304" height="405" src="./assets/images/accessories/shimano-105.webp"
               alt="Shimano 105 CS-R7000 Cassette">
             <figcaption>
-              <h3>Shimano Deore CN-HG54</h3>
+              <h2>Shimano Deore CN-HG54</h2>
               <p>Sleek single-speed with timeless lines and quality steel frame.</p>
             </figcaption>
           </figure>
@@ -50,7 +50,7 @@
             <img width="304" height="405" src="./assets/images/accessories/terk-verse.webp"
               alt="Trek Verse Trail Bike Saddle">
             <figcaption>
-              <h3>Trek Verse Trail Bike Saddle</h3>
+              <h2>Trek Verse Trail Bike Saddle</h2>
               <p>Offers all-day comfort for any rider on trails and off-road adventures.</p>
             </figcaption>
           </figure>
@@ -62,7 +62,7 @@
             <img width="304" height="405" src="./assets/images/accessories/specialized-bridge-sport.webp"
               alt="Specialized Bridge Sport Saddle">
             <figcaption>
-              <h3>Specialized Bridge Sport Unisex Saddle</h3>
+              <h2>Specialized Bridge Sport Unisex Saddle</h2>
               <p>Provides comfort and control on any terrain with Body Geometry support.</p>
             </figcaption>
           </figure>
@@ -74,7 +74,7 @@
             <img width="304" height="405" src="./assets/images/accessories/schwalbe-rapid.webp"
               alt="Schwalbe Rapid Rob K-Guard tire">
             <figcaption>
-              <h3>Schwalbe Rapid Rob K-Guard</h3>
+              <h2>Schwalbe Rapid Rob K-Guard</h2>
               <p>
                 A fast-rolling, puncture-resistant tire designed for reliable
                 performance on city streets and light trails.
@@ -89,7 +89,7 @@
             <img width="304" height="405" src="./assets/images/accessories/lazer-chiru.webp"
               alt="Lazer Chiru cycling helmet">
             <figcaption>
-              <h3>Lazer Chiru Helmets</h3>
+              <h2>Lazer Chiru Helmets</h2>
               <p>
                 Lightweight and ventilated helmet designed for comfort and safety
                 on every ride.
