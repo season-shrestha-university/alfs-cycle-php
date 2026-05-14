@@ -18,6 +18,7 @@
     rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+  <?php include 'layout/head_seo.php'; ?>
 </head>
 
 <body>
@@ -35,7 +36,7 @@
 
     <figure>
       <img width="992" height="661" src="./assets/images/alfs/alf-with-book.webp" alt="Young Alf with a book">
-      <figcaption>Young Alf with a book</figcaption>
+      <figcaption>Young Alf with a book in the year 1967</figcaption>
     </figure>
 
     <h2>A Legacy of Trust and Passion for Cycling</h2>

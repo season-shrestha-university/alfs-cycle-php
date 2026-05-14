@@ -15,8 +15,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap"
     rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+  <?php include 'layout/head_seo.php'; ?>
 </head>
 
 <body>
@@ -69,7 +70,7 @@
           </div>
           <div>
             <dt>Location</dt>
-            <dd>99-101 Cheriton High Street, Folkstone</dd>
+            <dd>99-101 Cheriton High Street, Folkestone, Kent CT19</dd>
           </div>
         </dl>
         <!-- schedule -->

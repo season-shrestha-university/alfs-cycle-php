@@ -18,7 +18,7 @@
     rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
-
+  <?php include 'layout/head_seo.php'; ?>
 </head>
 
 <body>
@@ -32,7 +32,7 @@
   </nav>
   <main id="main-content" tabindex="-1" class="content">
     <section class="event-cta">
-      <h2>Do we interest you?</h2>
+      <h1>Do we interest you?</h1>
       <p>
         Step into our shop, take your chosen bike for a spin, and feel the
         difference for yourself. We’ll have you on the road in no time.

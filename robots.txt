@@ -3,4 +3,4 @@ Disallow: /layout/
 Disallow: /assets/
 Disallow: /404.php
 
-Sitemap: https://season-shrestha.uk/coursework/design-for-web-content/alfs-cycle-revisited/
+Sitemap: https://season-shrestha.uk/coursework/design-for-web-content/alfs-cycle-revisited/sitemap.xml

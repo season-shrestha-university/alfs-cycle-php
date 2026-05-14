@@ -1041,6 +1041,7 @@ tbody td:first-child {
 
   section article figcaption h3 {
     font-size: 1.75rem;
+    font-weight: 600;
   }
 }
 

@@ -18,6 +18,7 @@
     rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+  <?php include 'layout/head_seo.php'; ?>
 </head>
 
 <body>
