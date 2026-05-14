@@ -153,6 +153,10 @@ table {
   --color-status-outline: #86efac;
   --color-status-text: #166534;
   --color-status-dot: #22c55e;
+  --color-status-closed-bg: #fee2e2;
+  --color-status-closed-outline: #fca5a5;
+  --color-status-closed-text: #991b1b;
+  --color-status-closed-dot: #ef4444;
   --color-overlay-light: rgba(26, 26, 26, 0.05);
   --color-overlay-medium: rgba(26, 26, 26, 0.1);
   --color-shadow: rgba(26, 26, 26, 0.1);
@@ -452,6 +456,16 @@ nav .header-contact output::before {
   height: 10px;
   background: var(--color-status-dot);
   border-radius: 50%;
+}
+
+nav .header-contact output.closed {
+  background: var(--color-status-closed-bg);
+  outline: 1px solid var(--color-status-closed-outline);
+  color: var(--color-status-closed-text);
+}
+
+nav .header-contact output.closed::before {
+  background: var(--color-status-closed-dot);
 }
 
 input[type="checkbox"] {

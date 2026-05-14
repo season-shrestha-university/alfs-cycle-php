@@ -42,7 +42,8 @@ $store_status = getOpeningStatus();
 
     <!-- Contact information -->
     <div class="header-contact">
-      <output aria-live="polite" id="status"><?php echo htmlspecialchars($store_status); ?></output>
+      <?php $is_closed = strpos($store_status, 'Closed') !== false; ?>
+      <output aria-live="polite" id="status" class="<?php echo $is_closed ? 'closed' : 'open'; ?>"><?php echo htmlspecialchars($store_status); ?></output>
       <a href="tel:+447484000000" aria-label="Call Alf's Cycle workshop">
         <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
           viewBox="0 0 24 24">
