@@ -48,5 +48,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <!-- Accessibility -->
+  <url>
+    <loc>https://season-shrestha.uk/coursework/design-for-web-content/alfs-cycle-revisited/accessibility.php</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 
 </urlset>
