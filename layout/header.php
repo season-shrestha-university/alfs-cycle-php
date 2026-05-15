@@ -68,11 +68,12 @@ $store_status = getOpeningStatus();
       </li>
       <li role="none">
         <a href="<?php echo isset($base_url) ? $base_url : './'; ?>bikes.php" role="menuitem"
-          class="<?php echo $current_page === 'bikes.php' ? 'active-link' : ''; ?>" <?php echo $current_page === 'bikes.php' ? 'aria-current="page"' : ''; ?>>Bikes</a>
+          class="<?php echo in_array($current_page, ['bikes.php', 'bike.php']) ? 'active-link' : ''; ?>" <?php echo in_array($current_page, ['bikes.php', 'bike.php']) ? 'aria-current="page"' : ''; ?>>Bikes</a>
       </li>
       <li role="none">
         <a href="<?php echo isset($base_url) ? $base_url : './'; ?>accessories.php" role="menuitem"
-          class="<?php echo $current_page === 'accessories.php' ? 'active-link' : ''; ?>" <?php echo $current_page === 'accessories.php' ? 'aria-current="page"' : ''; ?>>Accessories</a>
+          class="<?php echo in_array($current_page, ['accessories.php', 'accessory.php']) ? 'active-link' : ''; ?>"
+          <?php echo in_array($current_page, ['accessories.php', 'accessory.php']) ? 'aria-current="page"' : ''; ?>>Accessories</a>
       </li>
       <li role="none">
         <a href="<?php echo isset($base_url) ? $base_url : './'; ?>event.php" role="menuitem"
